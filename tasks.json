@@ -1,0 +1,220 @@
+{
+  "tasks": [
+    {
+      "id": "1",
+      "title": "Set up Amazon data collection infrastructure",
+      "description": "Research and implement Amazon Product Advertising API or web scraping solution to collect book category data, including titles, categories, prices, reviews, publication dates, and sales rank",
+      "status": "completed",
+      "priority": "high",
+      "category": "infrastructure"
+    },
+    {
+      "id": "2",
+      "title": "Build data processing pipeline",
+      "description": "Create background jobs/cron tasks to continuously scrape and update Amazon book data, normalize data formats, and store in database with proper indexing",
+      "status": "pending",
+      "priority": "high",
+      "category": "infrastructure"
+    },
+    {
+      "id": "3",
+      "title": "Implement niche discovery algorithm",
+      "description": "Develop core algorithm that analyzes competition (book count, quality metrics), demand (search volume, sales rank trends), and profitability (price points, review patterns) to score and rank niches",
+      "status": "pending",
+      "priority": "high",
+      "category": "core-features"
+    },
+    {
+      "id": "4",
+      "title": "Create publishing velocity analyzer",
+      "description": "Build module that tracks how many books are published per category over time to identify emerging vs saturated niches",
+      "status": "pending",
+      "priority": "high",
+      "category": "core-features"
+    },
+    {
+      "id": "5",
+      "title": "Build seasonal trends analyzer",
+      "description": "Implement analysis of seasonal patterns in book categories (e.g., holiday books, back-to-school) to identify timing opportunities",
+      "status": "pending",
+      "priority": "medium",
+      "category": "core-features"
+    },
+    {
+      "id": "6",
+      "title": "Develop keyword suggestion engine",
+      "description": "Create system that extracts and suggests relevant keywords from successful books in each niche, including long-tail variations",
+      "status": "pending",
+      "priority": "high",
+      "category": "core-features"
+    },
+    {
+      "id": "7",
+      "title": "Build competition analysis module",
+      "description": "Implement detailed competition analysis showing book count, average ratings, review counts, price ranges, and market saturation metrics",
+      "status": "pending",
+      "priority": "high",
+      "category": "core-features"
+    },
+    {
+      "id": "8",
+      "title": "Create revenue potential estimator",
+      "description": "Develop algorithm that estimates revenue potential based on search volume, competition level, average book prices, and historical sales data patterns",
+      "status": "pending",
+      "priority": "high",
+      "category": "core-features"
+    },
+    {
+      "id": "9",
+      "title": "Design user interest/expertise input system",
+      "description": "Build UI and backend for users to input their interests, expertise areas, and preferences (multi-select, tags, or free-form input)",
+      "status": "pending",
+      "priority": "high",
+      "category": "user-experience"
+    },
+    {
+      "id": "10",
+      "title": "Create niche ranking and filtering system",
+      "description": "Build algorithm that matches user interests to niches, ranks by profitability score, and allows filtering by competition level, revenue potential, and category",
+      "status": "pending",
+      "priority": "high",
+      "category": "user-experience"
+    },
+    {
+      "id": "11",
+      "title": "Build niche results dashboard",
+      "description": "Design and implement main dashboard showing ranked list of niches with key metrics (competition score, demand score, revenue potential, keyword suggestions)",
+      "status": "pending",
+      "priority": "high",
+      "category": "user-experience"
+    },
+    {
+      "id": "12",
+      "title": "Create detailed niche view page",
+      "description": "Build individual niche detail page showing comprehensive analysis: competition breakdown, keyword list, price analysis, review patterns, seasonal trends, and actionable insights",
+      "status": "pending",
+      "priority": "high",
+      "category": "user-experience"
+    },
+    {
+      "id": "13",
+      "title": "Implement subscription tiers and pricing",
+      "description": "Update Stripe configuration with $29/month (Basic), $59/month (Pro), and $99/month (Premium) plans with feature differentiation",
+      "status": "pending",
+      "priority": "high",
+      "category": "business"
+    },
+    {
+      "id": "14",
+      "title": "Add feature gating based on subscription tier",
+      "description": "Implement middleware/logic to restrict features (e.g., number of niche searches, detailed analytics, export capabilities) based on user subscription level",
+      "status": "pending",
+      "priority": "high",
+      "category": "business"
+    },
+    {
+      "id": "15",
+      "title": "Build search history and saved niches",
+      "description": "Create database models and UI for users to save favorite niches, view search history, and create custom niche lists",
+      "status": "pending",
+      "priority": "medium",
+      "category": "user-experience"
+    },
+    {
+      "id": "16",
+      "title": "Implement export functionality",
+      "description": "Add ability to export niche data (CSV, PDF reports) with keyword lists, competition analysis, and recommendations for higher-tier subscribers",
+      "status": "pending",
+      "priority": "medium",
+      "category": "business"
+    },
+    {
+      "id": "17",
+      "title": "Create cover design suggestion feature (expansion)",
+      "description": "Build AI-powered or template-based cover design suggestions based on successful covers in the niche",
+      "status": "pending",
+      "priority": "low",
+      "category": "expansion"
+    },
+    {
+      "id": "18",
+      "title": "Build title optimization tool (expansion)",
+      "description": "Create tool that analyzes successful titles in a niche and suggests optimized titles based on keyword density, length, and proven patterns",
+      "status": "pending",
+      "priority": "low",
+      "category": "expansion"
+    },
+    {
+      "id": "19",
+      "title": "Develop launch strategy recommendations (expansion)",
+      "description": "Build feature that provides launch strategy suggestions based on niche analysis, including pricing, promotion timing, and marketing approach",
+      "status": "pending",
+      "priority": "low",
+      "category": "expansion"
+    },
+    {
+      "id": "20",
+      "title": "Create case studies system",
+      "description": "Build database and UI to showcase successful books published using KDP Seek, including before/after metrics and testimonials",
+      "status": "pending",
+      "priority": "medium",
+      "category": "marketing"
+    },
+    {
+      "id": "21",
+      "title": "Update landing page for KDP Seek",
+      "description": "Redesign homepage with value proposition, features, pricing, testimonials, and clear CTAs targeting KDP publishers",
+      "status": "pending",
+      "priority": "high",
+      "category": "marketing"
+    },
+    {
+      "id": "25",
+      "title": "Update landing page copy with specific KDP Seek messaging",
+      "description": "Rewrite landing page copy to highlight: KDP publishers spend 20+ hours researching niches before writing; KDP Seek automatically scans Amazon data to identify emerging profitable categories with low competition and high demand; showcases specific examples like 'pet training for senior dogs' with 47 quality books and growing search volume; emphasizes time savings (20+ hours → instant results), actionable intelligence (publishing velocity, price points, review patterns, seasonal trends), and expansion features (cover design, title optimization, launch strategy); targets 2+ million active KDP publishers treating this as a business; includes market context ($12B by 2027) and positioning as 'secret weapon that separates profitable publishers from wannabes'",
+      "status": "pending",
+      "priority": "high",
+      "category": "marketing"
+    },
+    {
+      "id": "22",
+      "title": "Implement API rate limiting and caching",
+      "description": "Add rate limiting for data collection to avoid Amazon API limits, implement caching for frequently accessed niche data to improve performance",
+      "status": "pending",
+      "priority": "medium",
+      "category": "infrastructure"
+    },
+    {
+      "id": "23",
+      "title": "Add email notifications",
+      "description": "Set up email system to notify users of new niche opportunities, trending categories, or updates to saved niches",
+      "status": "pending",
+      "priority": "low",
+      "category": "user-experience"
+    },
+    {
+      "id": "24",
+      "title": "Build admin dashboard",
+      "description": "Create admin interface to monitor data collection, view analytics, manage users, and manually add/update niche data if needed",
+      "status": "pending",
+      "priority": "medium",
+      "category": "infrastructure"
+    }
+  ],
+  "metadata": {
+    "project": "KDP Seek - KDP Niche Discovery Tool",
+    "created": "2025-01-11",
+    "lastUpdated": "2025-01-11",
+    "totalTasks": 25,
+    "completedTasks": 1,
+    "pendingTasks": 24,
+    "categories": [
+      "infrastructure",
+      "core-features",
+      "user-experience",
+      "business",
+      "expansion",
+      "marketing"
+    ]
+  }
+}

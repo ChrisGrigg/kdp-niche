@@ -36,31 +36,33 @@ const Step = ({ emoji, text }: { emoji: string; text: string }) => {
 // Your Problem section explains what happens to the customer if its problem isn't solved.
 // The copy should NEVER mention your product. Instead, it should dig the emotional outcome of not fixing a problem.
 // For instance:
-// - Hero: "ShipFast helps developers launch startups fast"
-// - Problem Agitation: "Developers spend too much time adding features, get overwhelmed, and quit." (not about ShipFast at all)
-// - Features: "ShipFast has user auth, Stripe, emails all set up for you"
+// - Hero: "KDPSeek helps developers launch startups fast"
+// - Problem Agitation: "Developers spend too much time adding features, get overwhelmed, and quit." (not about KDPSeek at all)
+// - Features: "KDPSeek has user auth, Stripe, emails all set up for you"
 const Problem = () => {
   return (
     <section className="bg-neutral text-neutral-content">
       <div className="max-w-7xl mx-auto px-8 py-16 md:py-32 text-center">
         <h2 className="max-w-3xl mx-auto font-extrabold text-4xl md:text-5xl tracking-tight mb-6 md:mb-8">
-          80% of startups fail because founders never launch
+          KDP publishers spend 20+ hours researching niches before writing a
+          single word
         </h2>
         <p className="max-w-xl mx-auto text-lg opacity-90 leading-relaxed mb-12 md:mb-20">
-          Emails, DNS records, user authentication... There&apos;s so much going
-          on.
+          Most end up paralyzed by choice or picking oversaturated markets. You
+          waste weeks researching, only to discover your niche is already
+          flooded with competition.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center items-center md:items-start gap-6">
-          <Step emoji="🧑‍💻" text="8 hrs to add Stripe" />
+          <Step emoji="⏰" text="20+ hours researching" />
 
           <Arrow extraStyle="max-md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😮‍💨" text="Struggle to find time" />
+          <Step emoji="😵" text="Paralyzed by choice" />
 
           <Arrow extraStyle="md:-scale-x-100 md:-rotate-90" />
 
-          <Step emoji="😔" text="Quit project" />
+          <Step emoji="📉" text="Pick oversaturated niche" />
         </div>
       </div>
     </section>

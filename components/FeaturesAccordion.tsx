@@ -23,12 +23,12 @@ interface Feature {
 // - alt: The alt text of the image (if type is 'image')
 const features = [
   {
-    title: "Emails",
+    title: "Automated Niche Discovery",
     description:
-      "Send transactional emails, setup your DNS to avoid spam folder (DKIM, DMARC, SPF in subdomain), and listen to webhook to receive & forward emails",
-    type: "video",
-    path: "https://d3m8mk7e1mf7xn.cloudfront.net/app/newsletter.webm",
-    format: "video/webm",
+      "KDP Seek automatically scans Amazon's data to identify emerging, profitable book categories with low competition and high demand. Get ranked lists of specific niches like 'pet training for senior dogs' with only 47 quality books but growing search volume.",
+    type: "image",
+    path: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=3540&q=80",
+    alt: "Niche discovery dashboard",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -46,12 +46,12 @@ const features = [
     ),
   },
   {
-    title: "Payments",
+    title: "Competition & Revenue Analysis",
     description:
-      "Create checkout sessions, handle webhooks to update user's account (subscriptions, one-time payments...) and tips to setup your account & reduce chargebacks",
+      "Go beyond basic keyword research. Analyze publishing velocity, price points, review patterns, and seasonal trends across thousands of categories. Get actionable intelligence showing which niches have strong buyer intent but weak competition.",
     type: "image",
-    path: "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3540&q=80",
-    alt: "A computer",
+    path: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=3540&q=80",
+    alt: "Analytics dashboard",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -70,9 +70,9 @@ const features = [
     ),
   },
   {
-    title: "Authentication",
+    title: "Keyword Suggestions & Insights",
     description:
-      "Magic links setup, login with Google walkthrough, save user in MongoDB/Supabase, private/protected pages & API calls",
+      "Get comprehensive keyword suggestions extracted from successful books in each niche, including long-tail variations. Every niche comes with competition analysis, revenue potential estimates, and actionable insights to help you make informed decisions.",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -91,9 +91,9 @@ const features = [
     ),
   },
   {
-    title: "Style",
+    title: "Cover Design & Launch Strategy",
     description:
-      "Components, animations & sections (like this features section), 20+ themes with daisyUI, automatic dark mode",
+      "Get AI-powered cover design suggestions based on successful covers in your niche, title optimization tools, and launch strategy recommendations. Every successful book published using KDP Seek becomes a case study for the next publisher.",
     svg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -216,9 +216,9 @@ const FeaturesAccordion = () => {
     >
       <div className="px-8">
         <h2 className="font-extrabold text-4xl lg:text-6xl tracking-tight mb-12 md:mb-24">
-          All you need to ship your startup fast
+          The secret weapon that separates
           <span className="bg-neutral text-neutral-content px-2 md:px-4 ml-1 md:ml-1.5 leading-relaxed whitespace-nowrap">
-            and get profitable
+            profitable publishers from wannabes
           </span>
         </h2>
         <div className=" flex flex-col md:flex-row gap-12 md:gap-24">
